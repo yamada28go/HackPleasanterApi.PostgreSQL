@@ -10,7 +10,7 @@
   </OutputConfig>
   <TemplateFiles>
     <TemplateFiles>
-      <TemplateFileName>Templates\PostgreSQLView\CreateViewTemplate.txt</TemplateFileName>
+      <TemplateFileName>Templates/PostgreSQLView/CreateViewTemplate.txt</TemplateFileName>
       <OutputSubdirectoryName>CreateView</OutputSubdirectoryName>
       <HeadPrefix>_</HeadPrefix>
       <EndPrefix>_TempView</EndPrefix>
@@ -18,10 +18,10 @@
       <Encoding>Shift_JIS</Encoding>
     </TemplateFiles>
     <TemplateFiles>
-      <TemplateFileName>Templates\PostgreSQLView\DropViewTemplate.txt</TemplateFileName>
+      <TemplateFileName>Templates/PostgreSQLView/DropViewTemplate.txt</TemplateFileName>
       <OutputSubdirectoryName>DropView</OutputSubdirectoryName>
       <HeadPrefix>_</HeadPrefix>
-      <EndPrefix>_TempView</EndPrefix>
+      <EndPrefix>_DropTempView</EndPrefix>
       <OutputExtension>txt</OutputExtension>
       <Encoding>Shift_JIS</Encoding>
     </TemplateFiles>
