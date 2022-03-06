@@ -1,4 +1,4 @@
-﻿@{
+@{
 //コード生成に必要な一時変数をまとめて定義する
 
   // VIEW名称
@@ -12,5 +12,5 @@
 --  Created on @(Model.GeneratedDate)
 
 -- @Raw(Model.SiteDefinition.Title) ビュー
-DROP VIEW IF EXISTS @(TargetViewName); 
+DROP VIEW IF EXISTS @Raw(TargetViewName); 
 
