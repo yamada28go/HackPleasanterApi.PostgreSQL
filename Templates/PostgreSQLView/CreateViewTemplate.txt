@@ -19,7 +19,7 @@ SELECT
   "SiteId"
   , "UpdatedTime"
   , "ResultId"
-  , "ResultId" as "@(TargetViewName)Id"
+  , "ResultId" as "@Raw(TargetViewName)Id"
   , "Ver"
   , "Title"
   , "Body"
