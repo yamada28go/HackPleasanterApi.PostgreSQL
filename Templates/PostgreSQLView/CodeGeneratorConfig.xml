@@ -14,7 +14,7 @@
       <OutputSubdirectoryName>CreateView</OutputSubdirectoryName>
       <HeadPrefix>_</HeadPrefix>
       <EndPrefix>_TempView</EndPrefix>
-      <OutputExtension>txt</OutputExtension>
+      <OutputExtension>sql</OutputExtension>
       <Encoding>utf-8</Encoding>
     </TemplateFiles>
     <TemplateFiles>
@@ -22,7 +22,7 @@
       <OutputSubdirectoryName>DropView</OutputSubdirectoryName>
       <HeadPrefix>_</HeadPrefix>
       <EndPrefix>_DropTempView</EndPrefix>
-      <OutputExtension>txt</OutputExtension>
+      <OutputExtension>sql</OutputExtension>
       <Encoding>utf-8</Encoding>
     </TemplateFiles>
   </TemplateFiles>
