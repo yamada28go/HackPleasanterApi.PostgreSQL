@@ -18,9 +18,9 @@
 --  Created on @(Model.GeneratedDate)
 
 -- @Raw(Model.SiteDefinition.Title) ビュー
-DROP VIEW IF EXISTS "@Raw(TargetViewName)"; 
+DROP VIEW IF EXISTS "V_@Raw(TargetViewName)"; 
 
-CREATE VIEW "@Raw(TargetViewName)" as 
+CREATE VIEW "V_@Raw(TargetViewName)" as 
 SELECT
   "SiteId"
   , "UpdatedTime"
