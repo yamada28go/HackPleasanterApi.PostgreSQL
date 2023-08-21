@@ -9,12 +9,18 @@
 --  自動生成されたコードです。
 --  変更時には十分注意して変更してください。
 --
+--  [生成コマンド]
+--  https://github.com/yamada28go/HackPleasanterApiCli
+--
+--  [生成元テンプレートファイル]
+--  https://github.com/yamada28go/HackPleasanterApi.PostgreSQL
+--
 --  Created on @(Model.GeneratedDate)
 
 -- @Raw(Model.SiteDefinition.Title) ビュー
-DROP VIEW IF EXISTS "@Raw(TargetViewName)"; 
+DROP VIEW IF EXISTS "V_@Raw(TargetViewName)"; 
 
-CREATE VIEW "@Raw(TargetViewName)" as 
+CREATE VIEW "V_@Raw(TargetViewName)" as 
 SELECT
   "SiteId"
   , "UpdatedTime"
