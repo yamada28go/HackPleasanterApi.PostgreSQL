@@ -14,8 +14,6 @@
 --
 --  [生成元テンプレートファイル]
 --  https://github.com/yamada28go/HackPleasanterApi.PostgreSQL
---
---  Created on @(Model.GeneratedDate)
 
 -- @Raw(Model.SiteDefinition.Title) ビュー
 DROP VIEW IF EXISTS "V_@Raw(TargetViewName)"; 
