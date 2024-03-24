@@ -18,3 +18,5 @@
 -- @Raw(Model.SiteDefinition.Title) ビュー
 DROP VIEW IF EXISTS "V_@Raw(TargetViewName)"; 
 
+-- @Raw(Model.SiteDefinition.Title) ビュー バージョンが最大の列を選択
+DROP VIEW IF EXISTS "V_@Raw(TargetViewName)_LatestVersion"; 

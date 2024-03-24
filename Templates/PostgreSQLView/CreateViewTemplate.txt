@@ -87,3 +87,18 @@ where
   "SiteId" = @(Model.SiteDefinition.SiteId); 
 
 
+-- @Raw(Model.SiteDefinition.Title) ビュー バージョンが最大の列を選択
+DROP VIEW IF EXISTS "V_@Raw(TargetViewName)_LatestVersion"; 
+CREATE VIEW "V_@Raw(TargetViewName)_LatestVersion" as 
+SELECT
+    ranked.*
+FROM
+    ( 
+        SELECT
+            *
+            , ROW_NUMBER() OVER (PARTITION BY "ResultId" ORDER BY "Ver" DESC) as rn 
+        FROM
+            "V_@Raw(TargetViewName)"
+    ) as ranked 
+WHERE
+    rn = 1;
